@@ -37,10 +37,10 @@ module.exports = {
         global.colong2 = 'X-ZC'
         global.kontak2 = [
         ['6285641476033', 'X', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'X-ZC@gmail.com', true],
-        ['6283823916413', await this.getName('6283823916413@s.whatsapp.net'), 'ᴄꜱ ꜰᴀᴍɪʟy-ʙᴏᴛ', 'sa0066588@gmail.com', true],
-        ['6285157436653', '𝙴𝙽𝙹𝙴𝙻𝙰-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6288276639962', await this.getName('6288276639962@s.whatsapp.net'), 'ᴄꜱ ꜰᴀᴍɪʟy-ʙᴏᴛ', 'khasanahmarifatul28@gmail.com', true],
-        ['6285669524800', await this.getName('6285669524800@s.whatsapp.net'), 'ᴄꜱ ꜰᴀᴍɪʟy-ʙᴏᴛ', 'rykkalieeofficiall@gmail.com', true],
+        ['6285641476033', await this.getName('6285641476033@s.whatsapp.net'), 'X Family', 'X-ZC@gmail.com', true],
+        ['6285641476033', '𝙴𝙽𝙹𝙴𝙻𝙰-𝙱𝙾𝚃', 'X', 'X-ZC@gmail.com ', true],
+        ['6285641476033', await this.getName('6285641476033@s.whatsapp.net'), 'X Family', 'X-ZC@gmail.com', true],
+        ['6285641476033', await this.getName('6285641476033@s.whatsapp.net'), 'X Family', 'X-ZC@gmail.com', true],
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
