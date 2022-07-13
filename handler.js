@@ -32,11 +32,11 @@ module.exports = {
         global.author = global.data.owner
         //global.author = '𝑨𝒈𝒖𝒛 𝑭𝒂𝒎𝒊𝒍𝒊𝒂'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = namabot + ' ву ƒσкυѕ ι∂'
+        global.wm = namabot + ' X-ZC'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy ᴀɢᴜᴢ ꜰᴀᴍɪʟɪᴀ'
+        global.colong2 = 'X-ZC'
         global.kontak2 = [
-        ['6281320170984', '𝘼𝙜𝙪𝙯 𝙁𝙖𝙢𝙞𝙡𝙞𝙖', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'FokusDotId13@gmail.com', true],
+        ['6285641476033', 'X', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'X-ZC@gmail.com', true],
         ['6283823916413', await this.getName('6283823916413@s.whatsapp.net'), 'ᴄꜱ ꜰᴀᴍɪʟy-ʙᴏᴛ', 'sa0066588@gmail.com', true],
         ['6285157436653', '𝙴𝙽𝙹𝙴𝙻𝙰-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
         ['6288276639962', await this.getName('6288276639962@s.whatsapp.net'), 'ᴄꜱ ꜰᴀᴍɪʟy-ʙᴏᴛ', 'khasanahmarifatul28@gmail.com', true],
@@ -284,7 +284,7 @@ module.exports = {
                     if (!('desc' in chat)) chat.desc = true
                     if (!('descUpdate' in chat)) chat.descUpdate = true
                     if (!('stiker' in chat)) chat.stiker = false
-                    if (!('delete' in chat)) chat.delete = false
+                    if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = true
                     if (!isNumber(chat.expired)) chat.expired = 0
                     if (!('antiBadword' in chat)) chat.antiBadword = true
@@ -310,7 +310,7 @@ module.exports = {
                     desc: true,
                     descUpdate: true,
                     stiker: false,
-                    delete: false,
+                    delete: true,
                     antiLink: true,
                     expired: 0,
                     antiBadword: true,
