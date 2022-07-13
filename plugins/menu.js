@@ -20,7 +20,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
-├ %github
+├ Istagram : http://tiny.cc/Nathalie
 └────
 %readmore`.trim(),
   header: '┌─〔 %category 〕',
